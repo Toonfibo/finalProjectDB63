@@ -1,0 +1,230 @@
+*{
+    font-family: 'Kanit';
+    color: #244A57;
+}
+.slid-link{
+    display: inline-block;
+    color: #244A57;
+    text-decoration: none;
+}
+
+.slid-link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 3px;
+    background: #244A57;
+    transition: width .3s;
+}
+
+.slid-link:hover::after {
+    width: 50%;
+   
+}
+
+.active-slide::after {
+    height: 3px;
+    width: 50%;
+    color:#244A57 ;
+}
+
+.logo-Head{
+    font-size: 30px;
+    color: #244A57;
+}
+
+.manu-head{
+    font-size: 20px;
+}
+
+.input-style{
+    border: 3px solid #244A57;
+   
+}
+
+.border-circle-person{
+    border: 3px solid #244A57;
+    border-radius: 100%;
+}
+
+.bg-fish{
+    
+    height: 750px;
+    background-image: url('../image/Fish-Bg.jpg');
+    background-repeat: no-repeat; 
+    background-size:cover; 
+    background-position: center center;
+}
+
+.content-fish{
+    padding-top:250px;
+   
+}
+
+.aq-head{
+    color: #DDE7DC;
+}
+
+.line-content {
+    height: 3px;
+    width: 100%;
+    background: white;
+}
+
+.bnt-addData{
+    width: 150px;
+    border: 3px solid #DDE7DC;
+    text-align: center;
+    margin-left: 40%;
+    color:#DDE7DC ;
+}
+
+.bnt-addData:hover{
+    background:#DDE7DC ;
+    color: #000000;
+}
+
+.bg-footer{
+    background: #244A57;
+}
+
+.text-style-copy{
+    color: white;
+    border: none;
+
+}
+
+.text-style-copy:hover{
+    color: white;
+    
+}
+
+.cursor-pointer{
+    cursor: pointer;
+}
+
+.fb-icon{
+    width:46px;
+    height: 46px;
+    
+}
+.fb-icon:hover{
+    border: none;
+}
+
+.icon-foot{
+    padding-left: 34%;
+    
+}
+
+.btn-show1{
+    margin-left: auto;
+    
+}
+
+.btn-show2{
+    
+    margin-right: auto;
+}
+
+.hover-btn-show{
+    height: 40px;
+    border: 2px solid #000;
+    background: none;
+    transition: 0.3s;
+    border-radius: 5px;
+}
+
+.hover-btn-show:hover,.action-btnShow{
+    
+    border:none;
+    background: #000;
+    color: white;
+}
+.show-fish{
+    height: 700px;
+}
+
+.btn-edit{
+    height: 40px;
+    border: 2px solid rgb(0, 172, 86);
+    background: none;
+    transition: 0.3s;
+    border-radius: 5px;
+    color: rgb(0, 172, 86);
+}
+
+.btn-delete{
+    height: 40px;
+    border: 2px solid rgb(212, 42, 0);
+    background: none;
+    transition: 0.3s;
+    border-radius: 5px;
+    color: rgb(212, 42, 0);
+}
+
+.btn-edit:hover{
+    background:rgb(0, 172, 86);
+    border: none;
+    transition: 0.3s;
+    color: white;
+}
+
+.btn-delete:hover{
+    background:rgb(212, 42, 0);
+    border: none;
+    transition: 0.3s;
+    color: white;
+}
+
+.BG-index{
+    height: 600px;
+    background-image: url('../image/bg_home.jpg');
+    background-repeat: no-repeat; 
+    background-size:cover; 
+    background-position: center center;
+}
+
+.opa-bg{
+    height: 150px;
+    width: 100%;
+    background-color: white;
+    opacity: 30%;
+    
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.pad-bg{
+    padding-top: 450px;
+}
+.text-home{
+    color: black;
+    
+}
+
+.bg-card{
+    background:  #D6E0D5;
+}
+
+.img-crap{
+   
+    background-image: url('../image/Ab_home.png');
+    background-repeat: no-repeat; 
+    background-size:cover; 
+    background-position: center center;
+}
+
+.text-crap{
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 30%;
+    
+}
+
+
+
+
+
